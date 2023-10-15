@@ -76,7 +76,7 @@ def play():
 global stopped
 stopped = False 
 def stop():
-        # Stop the song
+        # Stop the audio
         pygame.mixer.music.stop()
         # Set Stop Variable To True
         global stopped
